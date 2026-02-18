@@ -1,0 +1,24 @@
+# System files
+.DS_Store
+.env
+**/*.key
+**/*.pem
+**/secrets*
+
+# OpenClaw sensitive files
+openclaw.json
+openclaw.json.bak*
+credentials/
+devices/
+identity/
+telegram/
+logs/
+agents/
+canvas/
+completions/
+cron/
+update-check.json
+
+# Keep workspace folders (these are safe to track)
+!workspace*/
+!.windsurf/
