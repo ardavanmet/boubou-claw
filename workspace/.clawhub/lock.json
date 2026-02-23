@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1771455364041
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1771599799408
+    }
+  }
+}
