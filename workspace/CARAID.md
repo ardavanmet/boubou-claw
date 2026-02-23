@@ -59,7 +59,32 @@ CarAid is currently:
 
 ---
 
-## 4. Near-Term Objectives (Next 3–6 Months)
+## 4. Current Primary Bottleneck
+
+**Preparing for angel round while increasing revenue and conversion rate.**
+
+This dual mandate requires parallel execution on two strategic tracks:
+
+### Track 1: Fundraising Readiness
+- Clear market size story and TAM validation
+- Demonstrated traction metrics (revenue, conversion, growth)
+- Compelling long-term vision and path to scale
+- Investor-ready materials (pitch deck, data room, financial model)
+- Customer testimonials and case studies
+- De-risked core assumptions through market validation
+
+### Track 2: Revenue & Conversion Acceleration
+- Increase paid conversion rate (current baseline → target)
+- Reduce estimate delivery time (faster = higher willingness to pay)
+- Strengthen trust signals (professional positioning, credibility)
+- Improve unit economics (reduce human time per estimate)
+- Expand addressable market (new customer segments, use cases)
+
+**Critical insight:** These tracks reinforce each other. Revenue growth strengthens fundraising narrative. Fundraising preparation clarifies what traction signals matter most.
+
+---
+
+## 5. Near-Term Objectives (Next 3–6 Months)
 
 CarAid must transition from:
 
@@ -91,7 +116,7 @@ CarAid must transition from:
 
 ---
 
-## Decision Framework for AI Agents
+## Decision Principles
 
 When working on CarAid tasks, prioritize:
 
@@ -100,17 +125,20 @@ When working on CarAid tasks, prioritize:
 3. **Professional credibility** – Everything should feel trustworthy and industry-grade
 4. **Lean operation** – Solo founder, limited resources, maximize leverage
 5. **Validation mindset** – We're proving the model, not scaling prematurely
+6. **Investor lens** – Every decision should consider: does this strengthen our fundraising narrative?
 
 ### What to optimize for:
-- Faster estimate delivery
-- Higher paid conversion
-- Lower manual effort per estimate
-- Stronger market positioning
-- Clearer path to scale
+- Traction signals (revenue, conversion, growth rate)
+- Faster estimate delivery (competitive advantage)
+- Lower manual effort per estimate (unit economics)
+- Stronger market positioning (defensibility)
+- Clearer path to scale (investor confidence)
 
 ### What NOT to do:
-- Build features without clear ROI
+- Build features without clear ROI or fundraising signal
 - Over-complicate the service offering
-- Pursue enterprise deals prematurely
+- Pursue enterprise deals prematurely (focus on validation)
 - Spend on marketing without conversion optimization
 - Add complexity that slows down estimates
+
+**For detailed decision frameworks, see PLAYBOOK.md**
