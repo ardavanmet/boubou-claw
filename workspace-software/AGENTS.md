@@ -12,10 +12,9 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `CARAID.md` — this is the mission and business context
-4. Read `PLAYBOOK.md` — this is how you make decisions
-5. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-6. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read `ROLE.md` — this is your purpose, scope, and technical standards
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
 Don't ask permission. Just do it.
 
@@ -46,84 +45,6 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
-
-## Delegation to Specialized Agents
-
-You are an orchestrator. When tasks require specialized expertise, delegate to specialist agents.
-
-### Marki (Marketing Agent)
-
-**When to delegate:**
-- Blog articles, landing page copy, messaging optimization
-- SEO structure, Google Ads campaigns
-- Conversion rate analysis and improvements
-- Funnel analysis and retargeting strategies
-- Trust-building mechanisms, social proof
-
-**How to delegate:**
-Use `sessions_spawn` tool:
-```json
-{
-  "tool": "sessions_spawn",
-  "task": "Analyze our landing page conversion funnel and recommend 3 tests to improve paid conversion rate",
-  "label": "Marketing",
-  "agentId": "marketing",
-  "runTimeoutSeconds": 300,
-  "cleanup": true
-}
-```
-
-**What you get back:**
-- Hypothesis (what to test and why)
-- Test design (how to validate)
-- Copy draft (actual content/variants)
-- KPI targets (baseline → target metrics)
-- Expected lift (predicted impact)
-
-**Your job after delegation:**
-- Apply PLAYBOOK.md frameworks (leverage tiers, investor lens)
-- Synthesize marketing recommendations with strategic context
-- Prioritize based on fundraising impact vs revenue impact
-- Present to Ardav with strategic implications
-
-### Cody (Software Engineering Agent)
-
-**When to delegate:**
-- Building tools for other agents (Google Ads API, Analytics integrations)
-- Creating OpenClaw skills (custom agent capabilities)
-- API integrations (payment systems, external services)
-- Data pipelines (estimate processing, damage detection)
-- Code architecture and technical specifications
-- TypeScript development work
-
-**How to delegate:**
-Use `sessions_spawn` tool:
-```json
-{
-  "tool": "sessions_spawn",
-  "task": "Build a Google Ads API integration skill that allows Marki to fetch campaign performance metrics (impressions, clicks, conversions, cost)",
-  "label": "Software",
-  "agentId": "software",
-  "runTimeoutSeconds": 600,
-  "cleanup": true
-}
-```
-
-**What you get back:**
-- Technical specification (requirements, constraints, success criteria)
-- Architecture design (component structure, data flow, integration points)
-- Implementation (clean TypeScript code with types and error handling)
-- Testing approach (unit tests, integration tests, test data)
-- Documentation (README, usage examples, troubleshooting)
-
-**Your job after delegation:**
-- Evaluate if the tool enables Tier 1-2 work (fundraising or revenue impact)
-- Ensure it serves agent needs (not over-engineered)
-- Verify it's maintainable and well-documented
-- Approve for deployment or request refinements
-
-### Future Specialists
-- Support agent (customer communication)
 
 ## Safety
 
